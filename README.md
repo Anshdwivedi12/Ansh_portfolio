@@ -1,8 +1,8 @@
-# **Build your portfolio with Once UI's Magic Portfolio**
+![image](https://github.com/user-attachments/assets/47f83e80-dfd6-4715-ac37-d6417760b5ad)# **Build your portfolio with Once UI's Magic Portfolio**
 
-View the [demo here](https://demo.magic-portfolio.com).
+View the [demo here](https://anshdwivedi.netlify.app/).
 
-![Magic Portfolio](public/images/cover.png)
+![Magic Portfolio](public/images/coverr.png)
 
 
 # **Getting started**
