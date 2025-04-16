@@ -7,7 +7,7 @@ View the [demo here](https://anshdwivedi.netlify.app/).
 
 # **Getting started**
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+
 
 **1. Clone the repository**
 ```
@@ -65,6 +65,6 @@ Add a new .mdx file to src/app/blog/posts or src/app/work/projects
 Connect with us on LinkedIn.
 
  
-Ansh Dwivedi: [Threads], [LinkedIn](https://www.linkedin.com/in/anshdwivedi-/)
+Ansh Dwivedi: [LinkedIn](https://www.linkedin.com/in/anshdwivedi-/)
 
 
