@@ -70,7 +70,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://anshdwivedi.tiiny.site",
+    link: "https://drive.google.com/file/d/1b-b9rtxvJSU0Kt40NZSvvImsLRDulFMn/view?usp=sharing",
     text: "Resume"
   },
   intro: {
