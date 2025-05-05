@@ -26,12 +26,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/GauravSingh696",
+    link: "https://github.com/Anshdwivedi12",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/gaurav-singh-22955a22b",
+    link: "https://www.linkedin.com/in/anshdwivedi-/",
   },
   {
     name: "X",
@@ -41,7 +41,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:gauravsingh033950@gmail.com",
+    link: "mailto:anshdubeyjii@gmail.com",
   },
 ];
 
