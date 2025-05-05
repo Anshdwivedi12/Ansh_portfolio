@@ -196,7 +196,7 @@ const work = {
     {
       title: "Crypto Tracker",
       description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
-      image: "/images/projects/project-01/proj-5.png",
+      image: "/images/projects/project-01/proj-5.jpg",
       link: "https://cryptotrackergs.netlify.app/",
       achievements: [
         "Built a responsive crypto tracking platform with real-time market data",
