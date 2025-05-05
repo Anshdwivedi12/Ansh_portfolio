@@ -1,6 +1,6 @@
 const person = {
-  firstName: "Ansh",
-  lastName: "Dwivedi",
+  firstName: "Gaurav",
+  lastName: "Singh",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
@@ -15,7 +15,7 @@ const newsletter = {
   title: <>Contact with {person.firstName} {person.lastName}</>,
   description: (
     <>
-      Feel free to reach out to Gaurav Singh for collaboration, questions, or just a friendly tech chat.
+      Feel free to reach out for collaboration, questions, or just a friendly tech chat.
     </>
   ),
 };
@@ -26,12 +26,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/Anshdwivedi12",
+    link: "https://github.com/GauravSingh696",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/anshdwivedi-/",
+    link: "https://www.linkedin.com/in/gaurav-singh-22955a22b",
   },
   {
     name: "X",
@@ -41,7 +41,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:anshdubeyjii@gmail.com",
+    link: "mailto:gauravsingh033950@gmail.com",
   },
 ];
 
@@ -70,7 +70,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://drive.google.com/file/d/1b-b9rtxvJSU0Kt40NZSvvImsLRDulFMn/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1Ni5axJw94qytVzxx07_iJudehZPLMxg_/view?usp=sharing",
     text: "Resume"
   },
   intro: {
@@ -83,7 +83,7 @@ const about = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience - projects",
     experiences: [
       {
@@ -193,6 +193,18 @@ const work = {
   title: "My Projects",
   description: `Projects by ${person.name}`,
   projects: [
+    {
+      title: "Crypto Tracker",
+      description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
+      image: "/images/projects/project-01/proj-5.png",
+      link: "https://cryptotrackergs.netlify.app/",
+      achievements: [
+        "Built a responsive crypto tracking platform with real-time market data",
+        "Implemented interactive charts and detailed coin information",
+        "Created a modern UI with dynamic price updates and market trends",
+        "Integrated cryptocurrency APIs for accurate and up-to-date information"
+      ]
+    },
     {
       title: "Tic Tac Toe",
       description: "A responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript",
