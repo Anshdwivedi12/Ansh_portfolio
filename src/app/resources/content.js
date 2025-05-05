@@ -1,6 +1,6 @@
 const person = {
-  firstName: "Gaurav",
-  lastName: "Singh",
+  firstName: "Ansh",
+  lastName: "Dwivedi",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
