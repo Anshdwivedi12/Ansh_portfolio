@@ -206,6 +206,19 @@ const work = {
       ]
     },
     {
+  title: "Snake Game",
+  description: "A classic Snake Game built using HTML, CSS, and JavaScript with smooth gameplay mechanics.",
+  image: "/images/projects/project-01/proj-6.png", // Make sure you upload the image at this path or update the path accordingly
+  link: "https://visionary-gaufre-1ca654.netlify.app/",
+  achievements: [
+    "Developed a responsive and smooth Snake Game using HTML, CSS, and JavaScript",
+    "Implemented core gameplay logic including collision detection and food generation",
+    "Demonstrated clean code practices and JavaScript animations",
+    "Enhanced the user experience with responsive controls and a clean UI"
+  ]
+},
+
+    {
       title: "Tic Tac Toe",
       description: "A responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript",
       image: "/images/projects/project-01/proj-1.png",
