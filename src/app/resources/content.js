@@ -70,7 +70,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://drive.google.com/file/d/1egP1aF3Oa8uyvZpcJRa6Ax5Ue_DrMt0g/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1dEgGjy9QGtWnJT2LoaRsPezxfPUzSXO0/view?usp=sharing",
     text: "Resume"
   },
   intro: {
