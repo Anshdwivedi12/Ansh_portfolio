@@ -196,7 +196,7 @@ const work = {
     {
       title: "Lifecalc-A daily life calculator ",
       description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
-      image: "/images/projects/project-01/proj-07.jpg",
+      image: "/images/projects/project-01/proj-07.jpg.png",
       link: "https://lifecals.netlify.app/",
      achievements: [
   "Developed a comprehensive suite of over 12 daily life calculators for finance, health, and utility needs.",
