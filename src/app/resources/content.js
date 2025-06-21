@@ -194,6 +194,18 @@ const work = {
   description: `Projects by ${person.name}`,
   projects: [
     {
+      title: "Lifecalc-A daily life calculator ",
+      description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
+      image: "/images/projects/project-01/proj-07.jpg",
+      link: "https://lifecals.netlify.app/",
+     achievements: [
+  "Developed a comprehensive suite of over 12 daily life calculators for finance, health, and utility needs.",
+  "Built a fully responsive, mobile-first interface with dynamic search and category filtering for an intuitive user experience.",
+  "Engineered a fast and modern web application using Next.js, React, and TypeScript for robust performance and type safety.",
+  "Created a clean and visually appealing UI with a cohesive design system implemented with Tailwind CSS."
+]
+    },
+      {
       title: "Crypto Tracker",
       description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
       image: "/images/projects/project-01/proj-5.jpg",
