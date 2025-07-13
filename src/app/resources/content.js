@@ -82,7 +82,7 @@ const about = {
   },
   work: {
     display: true,
-    title: "Work Experience - projects",
+    title: "Work Experience",
     experiences: [
       {
         company: "Web GIS Developer Intern at Terra Aqua (IIT Kanpur)",
