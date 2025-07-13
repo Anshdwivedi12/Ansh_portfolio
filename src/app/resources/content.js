@@ -102,7 +102,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/project-01/internship-iitk.jpg",
+            src: "/images/projects/project-01/WhatsApp Image 2025-07-12 at 14.01.59_8c43aaf8.jpg",
             alt: "Internship at Terra Aqua (IIT Kanpur)",
             width: 16,
             height: 9,
