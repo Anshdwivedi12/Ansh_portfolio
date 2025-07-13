@@ -109,52 +109,7 @@ const about = {
           },
         ],
       },
-      {
-        company: "1) Tic Tac Toe",
-        achievements: [
-          <>
-            Built a responsive Tic-Tac-Toe game using HTML, CSS, and JavaScript.
-          </>,
-          <>
-            Implemented game logic for turns, win detection, and reset.
-          </>,
-          <>
-            Demonstrated front-end development and DOM manipulation skills.
-          </>
-        ],
-        images: [
-          {
-            src: "/images/projects/project-01/proj-1.png",
-            alt: "Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "2) Currency Converter",
-        achievements: [
-          <>
-            Developed a currency converter with real-time exchange rates using APIs.
-          </>,
-          <>
-            Integrated country flag APIs for an enhanced user experience.
-          </>,
-          <>
-            Ensured efficient performance and reliable data handling.
-          </>
-        ],
-        images: [
-          {
-            src: "/images/projects/project-01/proj-2.png",
-            alt: "Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
-  },
+      
   studies: {
     display: true,
     title: "Studies",
