@@ -108,8 +108,9 @@ const about = {
             height: 9,
           },
         ],
-      },
-      
+      }
+    ],
+  },
   studies: {
     display: true,
     title: "Studies",
