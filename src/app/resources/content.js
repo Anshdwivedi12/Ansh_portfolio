@@ -6,8 +6,8 @@ const person = {
   },
   role: "Software Development & Engineering",
   avatar: "/images/avatar.jpg",
-  location: "Asia/India", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/India",
+  languages: ["English", "Hindi"],
 };
 
 const newsletter = {
@@ -21,8 +21,6 @@ const newsletter = {
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
@@ -70,7 +68,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://drive.google.com/file/d/1YzudvrPMPNEBut2a3PxB3TbJO2MuX94Z/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1tphrSES4qg2VC5pZsSwoSVKd-nyyVwJN/view?usp=sharing",
     text: "Resume"
   },
   intro: {
@@ -83,9 +81,34 @@ const about = {
     ),
   },
   work: {
-    display: false, // set to false to hide this section
+    display: true,
     title: "Work Experience - projects",
     experiences: [
+      {
+        company: "Web GIS Developer Intern at Terra Aqua (IIT Kanpur)",
+        achievements: [
+          <>
+            Selected as a Web GIS Intern under IIT Kanpur's DORA/20223508E project supervised by Prof. Rajiv Sinha.
+          </>,
+          <>
+            Developed interactive GIS web applications using Leaflet.js, Mapbox, and CesiumJS.
+          </>,
+          <>
+            Integrated geospatial APIs and worked with real-world terrain and satellite data.
+          </>,
+          <>
+            Collaborated with IIT researchers to build spatial data visualizations and UI tools using React and Tailwind CSS.
+          </>
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/internship-iitk.jpg",
+            alt: "Internship at Terra Aqua (IIT Kanpur)",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
       {
         company: "1) Tic Tac Toe",
         achievements: [
@@ -100,7 +123,6 @@ const about = {
           </>
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/proj-1.png",
             alt: "Project",
@@ -123,7 +145,6 @@ const about = {
           </>
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/proj-2.png",
             alt: "Project",
@@ -135,7 +156,7 @@ const about = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
@@ -149,13 +170,12 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
         title: "DSA",
         description: <>Mastering Data Structures and Algorithms to build optimized and efficient solutions for real-world problems.</>,
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
             src: "/images/projects/project-01/cover-02.png",
@@ -174,7 +194,6 @@ const about = {
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js</>,
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
@@ -198,14 +217,14 @@ const work = {
       description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
       image: "/images/projects/project-01/proj-07.jpg.png",
       link: "https://lifecals.netlify.app/",
-     achievements: [
-  "Developed a comprehensive suite of over 12 daily life calculators for finance, health, and utility needs.",
-  "Built a fully responsive, mobile-first interface with dynamic search and category filtering for an intuitive user experience.",
-  "Engineered a fast and modern web application using Next.js, React, and TypeScript for robust performance and type safety.",
-  "Created a clean and visually appealing UI with a cohesive design system implemented with Tailwind CSS."
-]
+      achievements: [
+        "Developed a comprehensive suite of over 12 daily life calculators for finance, health, and utility needs.",
+        "Built a fully responsive, mobile-first interface with dynamic search and category filtering for an intuitive user experience.",
+        "Engineered a fast and modern web application using Next.js, React, and TypeScript for robust performance and type safety.",
+        "Created a clean and visually appealing UI with a cohesive design system implemented with Tailwind CSS."
+      ]
     },
-      {
+    {
       title: "Crypto Tracker",
       description: "A real-time cryptocurrency tracking application with live market data and interactive charts",
       image: "/images/projects/project-01/proj-5.jpg",
@@ -218,18 +237,17 @@ const work = {
       ]
     },
     {
-  title: "Snake Game",
-  description: "A classic Snake Game built using HTML, CSS, and JavaScript with smooth gameplay mechanics.",
-  image: "/images/projects/project-01/proj-6.png", // Make sure you upload the image at this path or update the path accordingly
-  link: "https://visionary-gaufre-1ca654.netlify.app/",
-  achievements: [
-    "Developed a responsive and smooth Snake Game using HTML, CSS, and JavaScript",
-    "Implemented core gameplay logic including collision detection and food generation",
-    "Demonstrated clean code practices and JavaScript animations",
-    "Enhanced the user experience with responsive controls and a clean UI"
-  ]
-},
-
+      title: "Snake Game",
+      description: "A classic Snake Game built using HTML, CSS, and JavaScript with smooth gameplay mechanics.",
+      image: "/images/projects/project-01/proj-6.png",
+      link: "https://visionary-gaufre-1ca654.netlify.app/",
+      achievements: [
+        "Developed a responsive and smooth Snake Game using HTML, CSS, and JavaScript",
+        "Implemented core gameplay logic including collision detection and food generation",
+        "Demonstrated clean code practices and JavaScript animations",
+        "Enhanced the user experience with responsive controls and a clean UI"
+      ]
+    },
     {
       title: "Tic Tac Toe",
       description: "A responsive Tic-Tac-Toe game built with HTML, CSS, and JavaScript",
@@ -283,88 +301,23 @@ const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
   images: [
-    {
-      src: "/images/gallery/img-12.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-15.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-16.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    { src: "/images/gallery/img-12.png", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-13.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-14.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-15.png", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-16.jpg", alt: "image", orientation: "vertical" },
+    { src: "/images/gallery/img-01.jpg", alt: "image", orientation: "vertical" },
+    { src: "/images/gallery/img-02.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-03.jpg", alt: "image", orientation: "vertical" },
+    { src: "/images/gallery/img-04.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-05.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-06.jpg", alt: "image", orientation: "vertical" },
+    { src: "/images/gallery/img-07.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-08.jpg", alt: "image", orientation: "vertical" },
+    { src: "/images/gallery/img-09.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-10.jpg", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img-11.jpg", alt: "image", orientation: "vertical" },
   ],
 };
 
