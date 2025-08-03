@@ -68,7 +68,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://drive.google.com/file/d/1tphrSES4qg2VC5pZsSwoSVKd-nyyVwJN/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1UwqTc8upyRsAZbNgsTglJzy9soCGlLlU/view?usp=sharing",
     text: "Resume"
   },
   intro: {
@@ -85,13 +85,14 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Web GIS Developer Intern at Terra Aqua (IIT Kanpur)",
+        company: "Frontend Developer Intern at Terra Aqua (IIT Kanpur)",
         achievements: [
           <>
-            Selected as a Web GIS Intern under IIT Kanpur's DORA/20223508E project supervised by Prof. Rajiv Sinha.
+            Selected as a Frontend Developer Intern  at TerrAqua UAV under IIT Kanpur's supervised by Prof. Rajiv Sinha.
           </>,
           <>
-            Developed interactive GIS web applications using Leaflet.js, Mapbox, and CesiumJS.
+           Contributed to frontend development using HTML, CSS, JavaScript, React.js, PHP, and Tailwind CSS, improving UI/UX of GIS 
+dashboards. 
           </>,
           <>
             Integrated geospatial APIs and worked with real-world terrain and satellite data.
