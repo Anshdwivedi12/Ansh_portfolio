@@ -19,7 +19,7 @@ export async function generateMetadata() {
     description: home.description,
 
     verification: {
-      google: "VJU2ceYNZ8ksnnuxlGHfFP2u10ahSUjv-K2cXMWmg08", 
+      google: "VJU2ceYNZ8ksnnuxlGHfFP2u10ahSUjv-K2cXMWmg08",
     },
 
     openGraph: {
@@ -30,21 +30,8 @@ export async function generateMetadata() {
       locale: "en_US",
       type: "website",
     },
-
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
   };
 }
-
 const primary = Inter({
   variable: "--font-primary",
   subsets: ["latin"],
