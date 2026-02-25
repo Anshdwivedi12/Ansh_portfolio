@@ -17,6 +17,11 @@ export async function generateMetadata() {
     metadataBase: new URL(`https://${baseURL}`),
     title: home.title,
     description: home.description,
+
+    verification: {
+      google: "VJU2ceYNZ8ksnnuxlGHfFP2u10ahSUjv-K2cXMWmg08", 
+    },
+
     openGraph: {
       title: `${person.firstName}'s Portfolio`,
       description: "Portfolio website showcasing my work.",
@@ -25,6 +30,7 @@ export async function generateMetadata() {
       locale: "en_US",
       type: "website",
     },
+
     robots: {
       index: true,
       follow: true,
