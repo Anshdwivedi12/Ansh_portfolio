@@ -29,7 +29,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/anshdwivedi-/",
+    link: "https://www.linkedin.com/in/anshdwivedi12/",
   },
   {
     name: "X",
@@ -68,7 +68,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://drive.google.com/file/d/1UwqTc8upyRsAZbNgsTglJzy9soCGlLlU/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1QW7wgPzV9qk0DATizsutK6Dg_5YyaFG8/view?usp=sharing",
     text: "Resume"
   },
   intro: {
